@@ -1,0 +1,295 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+body{
+
+
+}
+
+/* Header */
+
+header, .newsletter {
+    background-color: #35424a;
+    color: white;
+    text-align: center;
+
+}
+
+header h1{
+font-size: 2rem;
+margin-top: 0;
+padding: 8vw 0 0 0;
+}
+
+
+.nav-bar ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-bottom: 0;
+    margin-top: ;
+}
+
+.nav-bar li{
+    list-style: none;
+    padding: 4vw;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    color: white;
+}
+
+/* General */
+
+span{
+color: #e8491d;
+}
+
+/* Main */
+main {
+    background-image: url("/img/showcase.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 100vw 100vh;
+    min-height: 420px;
+}
+
+
+main h2{
+    margin: 0;
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 150%;
+    margin-right: 27px;
+    margin-left: 27px;
+    padding-top: 40px;   
+}
+
+main p{
+    text-align: center;
+    margin:5px 9px 0;
+    padding:27px;
+    color: white;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+/* Newsletter */
+.newsletter h4{
+    margin: 0;
+    padding: 20px  20px;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+input[type=email]{
+    padding: 8px 7.3vw 8px 7.3vw;
+
+}
+
+.newsletter button{
+    margin-top: 5px;
+    padding: 8px 25vw;
+    background-color: #e8491d;
+    color: white;
+    margin-bottom: 2vw;
+}
+
+/* Icons */
+.icons{
+ background-color: white;
+ text-align: center;
+ color: black;
+}
+
+.img-logos {
+    margin-top: 25px;
+    width: 30vw;
+    max-width: 90px;
+}
+
+.icons p{
+    padding: 0 30px;
+    font-weight: 300;
+}
+
+/* Footer */
+footer{
+    margin-top: px;
+    background-color:#e8491d;
+    text-align: center;
+    color: white;
+    padding: auto;
+}
+
+footer p{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 41px 16px;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
+@media screen and (min-width: 500px){
+    header h1{
+      margin-bottom: 0;
+      padding-top: 30px;
+      font-size: 2.3rem;
+        }
+
+    .nav-bar li{
+            padding-top: 10px;
+    }
+
+    .img-logos {
+        margin-top: 5vw;
+        width: 30vw;
+        max-width: 90px;
+    }
+
+    .icons p{
+        padding: 0 50px;
+    }
+
+    main h2{
+        margin-right: 27px;
+        margin-left: 27px;
+        padding: 40px 40px 10px 40px;        
+}
+
+main p{
+    padding-top: 
+    margin-top: 0;
+   
+}
+
+input[type=email]{
+    padding: 8px 13.8vw;
+
+}
+
+
+}
+
+
+@media screen and (min-width: 669px) {
+    main h2{
+        margin-right: 27px;
+        margin-left: 27px;
+        padding: 40px 60px 10px 40px;        
+}
+}
+
+@media screen and (min-width: 689px) {
+    main h2{
+        margin-right: 27px;
+        margin-left: 27px;
+        padding: 40px 11.7vw 10px 40px;        
+}
+}
+
+@media screen and (min-width: 689px) {
+    main h2{
+        margin-right: 27px;
+        margin-left: 27px;
+        padding: 40px 11.7vw 10px 40px;        
+}
+}
+
+@media screen and (min-width: 713px) {
+    main h2{
+        margin-right: 27px;
+        margin-left: 27px;
+        padding: 40px 12vw 10px 40px;        
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    
+    header h1{
+        font-size: 2rem;
+        margin-top: 0;
+        padding: 30px 0 0 90px;
+        float: left;
+        }
+
+        .nav-bar ul{
+            list-style: none;
+            display: flex;
+            justify-content:flex-end;
+            padding-top: 30px;
+            margin-right: 50px;
+            margin-top: 0;
+        }
+
+        .nav-bar li{
+            list-style: none;
+            padding: 10px 15px 30px;
+        }
+
+        
+            main h2{
+                margin-right: 27px;
+                margin-left: 27px;
+                padding: 40px 80px 10px 80px;        
+            }
+
+
+            main p{
+                text-align: center;
+                margin:5px 33px 0;
+                padding:27px;
+                color: white;
+                font-weight: 300;
+                font-size: 1.3rem;
+            }
+
+
+            .newsletter{
+                display: flex;
+                justify-content: center;
+            }
+
+            .newsletter h4{
+                font-size: 1rem;
+                padding: 30px;
+                padding-left: 100px;
+                padding-top: 40px;
+            }
+
+            input[type=email]{
+                margin: 30px;
+                margin-left: 0px;
+                margin-right: 0;
+                padding: 20px;
+                height: 30px;
+                width: 200px;
+            
+            } 
+
+            .newsletter button{
+                text-align: center;
+                    margin-top: 31px;
+                    margin-right: 70px;
+                    padding: 8px 20px 35px;
+                    border: 0;
+                    background-color: #e8491d;
+                    color: white;
+                    font-size: 1rem;
+                    height: 34px;
+                }
+
+     .wrapper-icon{
+         display: flex;
+         padding: 0 30px;
+     }              
+}
