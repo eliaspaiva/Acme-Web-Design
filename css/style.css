@@ -44,6 +44,7 @@ padding: 8vw 0 0 0;
 
 .orange-line {
     border-bottom: 3px solid #e8491d;
+    background-color: #35424a;
 
 }
 
@@ -97,8 +98,7 @@ input[type=email]{
 
 }
 
-.newsletter button,
-form button{
+.newsletter button{
     margin-top: 5px;
     padding: 8px 25vw;
     background-color: #e8491d;
@@ -126,11 +126,9 @@ form button{
 
 /* Footer */
 footer{
-    margin-top: px;
     background-color:#e8491d;
     text-align: center;
     color: white;
-    padding: auto;
 }
 
 footer p{
@@ -152,7 +150,7 @@ footer p{
 }
 
 .about-us p{
-    font-weight: 350;
+    font-weight: 400;
 }
 
 
@@ -175,6 +173,11 @@ footer p{
 
 .what-we-do{
     margin-bottom: 40px;
+}
+
+.what-we-do h3{
+    text-align: center;
+    
 }
 
 /* Services */
@@ -211,8 +214,10 @@ font-weight: 300;
     padding-bottom: 20px;
 }
 
+/*  */
+
 form{
-    width: 80%;
+    width: 76%;
     margin: 0 auto;
     color: white;
     text-align: center;
@@ -226,27 +231,45 @@ form h3 {
 
 }
 
-form button {
-    ;
+
+#name-quote, #mail-quote{
+    padding:5px 6vw;
 }
 
-form input[type=text],
-input[type=email]
-{
-    padding: 5px;
-    margin:3px 0;
+#bt-quote{
+    padding:5px 3vh;
+    background-color: #e8491d;
+    color: white;
+    margin-top: 5px;
+}
+
+#text-quote{
+    padding:5px 8.7vw; 
 }
 
 
-textarea{
-    padding-right: 15px;
-    padding-left: 15px;
+@media screen and (min-width: 375px){
+    .newsletter button{
+        margin-top: 5px;
+        padding: 8px 22.3vw;
+        background-color: #e8491d;
+        color: white;
+        margin-bottom: 2vw;
+    }
+
 }
 
 
+@media screen and (min-width: 425px){
+    .newsletter button{
+        margin-top: 5px;
+        padding: 8px 20.5vw;
+        background-color: #e8491d;
+        color: white;
+        margin-bottom: 2vw;
+    }
 
-
-
+}
 
 
 @media screen and (min-width: 500px){
@@ -280,6 +303,14 @@ textarea{
 input[type=email]{
     padding: 8px 13.8vw;
 
+}
+
+#text-quote{
+    padding:5px 7.3vw; 
+}
+
+.bt-about-page{
+   
 }
 
 
@@ -365,6 +396,13 @@ input[type=email]{
                 justify-content: center;
             }
 
+            .orange-line {
+                border-bottom: 3px solid #e8491d;
+                background-color:  #35424a;
+            
+            
+            }
+
             .newsletter h4{
                 font-size: 1.2rem;
                 padding: 30px;
@@ -372,7 +410,7 @@ input[type=email]{
                 padding-top: 40px;
             }
 
-            input[type=email]{
+            #email-newsletter{
                 margin: 30px;
                 margin-left: 0px;
                 margin-right: 0;
@@ -398,7 +436,21 @@ input[type=email]{
             .wrapper-icon{
                     display: flex;
                     padding: 0 30px;
-                }              
+                }      
+                
+                
+                #name-quote, #mail-quote{
+                    padding:5px 6vw;
+                }
+                
+                #bt-quote{
+                    padding:5px 3vh;
+                }
+                
+                #text-quote{
+                    padding:5px 7.2vw; 
+                }
+
 }
 
 
@@ -412,7 +464,12 @@ input[type=email]{
                 padding-top: 40px;
             }
 
-            input[type=email]{
+            .orange-line {
+                border-bottom: 3px solid #e8491d;
+            
+            }
+
+            #email-newsletter{
                 margin: 30px;
                 margin-left: 0px;
                 margin-right: 0;
@@ -458,8 +515,55 @@ input[type=email]{
             .what-we-do h3{
                 text-align: center;
             }
+
+
+
+            .wrapper-services{
+                display: flex;
+                flex-direction: column;
+                width: 55%;
+                margin-left: 8%;
+                margin-bottom: 20px;
+            }
+
+            
+            .wrapper-form{
+                display: flex;
+                justify-content:flex-end;
+                position: relative;
+            }
+            
+            
+            .form-quote {
+                width: 25%;
+                margin: 0;
+                position: absolute;
+                bottom: 272px;
+                right: 100px;
+                
+               
+                
+            }
+
+
+            #name-quote, #mail-quote{
+                padding:5px 3vw;
+            }
+            
+            #bt-quote{
+                padding:5px 3vh;
+            }
+            
+            #text-quote{
+                padding:5px 4vw; 
+            }
+
+
                    
         }
+
+
+
 
         @media screen and (min-width: 1036px){
             .what-we-do {
@@ -467,10 +571,7 @@ input[type=email]{
                 position: absolute;
                 bottom: 70px;
                 
-                text-align: center;
-
-
-            }
+                text-align: center; }
 
 
         }

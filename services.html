@@ -20,18 +20,21 @@
                 <nav class="nav-bar">
                     <ul>
                         <li><a href="index.html">HOME</a></li>
-                        <li><a href="about.html"><span>ABOUT</span></a></li>
-                        <li><a href="services.html">SERVICES</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="services.html"><span>SERVICES</span></a></li>
                     </ul>
                 </nav>
             </header>
         </div>
+        
+        <div class="orange-line"></div>
 
         <section class="newsletter">
-            <div class="orange-line"></div>
+            
 
             <h4>Subscribe To Our Newsletter</h4>
-            <input type="email" name="mail" id="email" placeholder="Enter Email...">
+            <label for="email-newsletter"></label>
+            <input type="email" name="mail" id="email-newsletter" placeholder="Enter Email...">
             <br>
             <button>Subscribe</button>
         </section>
@@ -49,6 +52,7 @@
                     </ul>
 
                 </section>
+                
 
                 <section class="services1">
                     <h2>Website Maintenance
@@ -74,23 +78,33 @@
                 </section>
             </div>
 
-        
-                <form action="/action_page.php">
-                    <h3>Get A Quote</h3>
-                    <label for="name">Name</label>
-                    <br>
-                    <input type="text" id="name" name="send_name" placeholder="Name">
-                    <br>
-                    <label for="mail">Email</label>
-                    <br>
-                    <input type="email" id="mail" name="send_email" placeholder="Email Adress">
-                    <br>
-                    <label for="text">Message</label>
-                    <br>
-                    <textarea id="text" name="text" placeholder="Message"></textarea>
-                    <br>
-                    <button>Send</button>
-                </form>
+
+            <div class="wrapper-form">
+                    <form action="/action_page.php"       class="form-quote">
+                        <h3>Get A Quote</h3>
+                        
+                        
+                        <label for="name-quote">Name</label>
+                        <br>
+                        <input type="text" id="name-quote" name="send_name" placeholder="Name">
+                        <br>
+                    
+                    
+                        <label for="mail-quote">Email</label>
+                        <br>
+                        <input type="email" id="mail-quote" name="send_email" placeholder="Email Adress">
+                        <br>
+                    
+                        
+                        <label for="text-quote">Message</label>
+                        <br>
+                        <textarea id="text-quote" name="text" placeholder="Message"></textarea>
+                        
+                        
+                        <br>
+                        <button id="bt-quote">Send</button>
+                    </form>
+            </div>
             
                 <footer>
                     <p>Acme Web Deisgn, Copyright © 2017</p>
