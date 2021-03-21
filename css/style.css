@@ -56,7 +56,7 @@ color: #e8491d;
 
 /* Main */
 main {
-    background-image: url("/img/showcase.jpg");
+    background-image: url(../img/showcase.jpg);
     background-repeat: no-repeat;
     background-position:center;
     background-size: 100vw 100vh;
@@ -147,6 +147,7 @@ footer p{
     width: 80%;
     margin:0 auto;
     text-align: center;
+    
 }
 
 .about-us p{
@@ -213,6 +214,9 @@ font-weight: 300;
 .wrapper-services li{
     padding-bottom: 20px;
 }
+
+
+
 
 /*  */
 
@@ -563,16 +567,17 @@ input[type=email]{
         }
 
 
-
-
         @media screen and (min-width: 1036px){
             .what-we-do {
                 width: 35%;
                 position: absolute;
                 bottom: 70px;
                 
-                text-align: center; }
-
-
+                text-align: center; 
         }
-     
+    }
+
+        
+            
+        
+    
